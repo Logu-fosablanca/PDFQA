@@ -11,7 +11,7 @@ import pickle
 
 DB_DIR = "data/faiss_index"
 
-def build_rag_chain():
+def build_rag_chain(memory):
     # Load Ollama model and embeddings
     llm = OllamaLLM(model=os.getenv("OLLAMA_MODEL", "llama3.1:latest"))
     embeddings = OllamaEmbeddings(model=os.getenv("OLLAMA_MODEL", "llama3.1:latest"))

@@ -4,3 +4,15 @@ faiss-cpu
 python-dotenv
 chainlit
 PyPDF2
+fastapi 
+uvicorn 
+langchain 
+openai 
+sqlite3
+fastapi
+uvicorn
+langchain
+sqlite-utils
+sqlalchemy
+pydantic
+
