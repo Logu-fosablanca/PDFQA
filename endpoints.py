@@ -13,7 +13,7 @@ active_chains = {}
 class QueryRequest(BaseModel):
     query: str
 
-# ✅ Dependency to properly expose session_id header in Swagger
+# Dependency to properly expose session_id header in Swagger
 def get_session_id(session_id: str = Header(..., convert_underscores=False)):
     return session_id
 
